@@ -177,44 +177,61 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jonathan Guerrero Astaiza',
+        cargo: 'Instructor',
+        centro:
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+      },
+      {
+        nombre: 'Paula Andrea Taborda Ortiz',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        cargo: 'Responsable equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Carlos Julián Ramírez Benítez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Luis Jesús Pérez Madariaga',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [

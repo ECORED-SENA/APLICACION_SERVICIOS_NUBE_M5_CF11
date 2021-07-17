@@ -9,7 +9,7 @@
 
     p(data-aos="fade-up") Para poder colaborar con un equipo de trabajo e implementar el concepto de integración continua, es necesario hospedar los proyectos en repositorios remotos los cuales son accesibles por medio de internet o por un entorno de red.
 
-    p.mt-3(data-aos="fade-up") En estos repositorios remotos se definen una serie de permisos que indican si se tiene la posibilidad de leer o de lectura y escritura. El colaborar implica la gestión de estos repositorios enviando y obteniendo información desde estos, teniendo en cuenta los estados que ya se han mencionado anteriormente. Se podrá acceder a ellos mediante: 
+    p.mt-3(data-aos="fade-up") En estos repositorios remotos se definen una serie de permisos que indican si se tiene la posibilidad de leer o de lectura y escritura. El colaborar implica la gestión de estos repositorios enviando y obteniendo información desde estos, teniendo en cuenta los estados que ya se han mencionado anteriormente.
 
     p.mt-3(data-aos="fade-up") #[strong A continuación, se relacionan los pasos a seguir para los entornos remotos.]
 

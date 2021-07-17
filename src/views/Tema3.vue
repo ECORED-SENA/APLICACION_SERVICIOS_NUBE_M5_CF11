@@ -16,7 +16,7 @@
         .col-md-3.p-3.text-white(data-aos="fade-up" style="background-color:#21214B;") 
           p.mb-0(style="font-family:Inconsolata;font-size: 1.2rem;text-shadow: 0px 0px 2px black;padding-left:12px;word-break: break-all;") $ git init
 
-      p.mt-5(data-aos="fade-up") #[strong 2. Este comando creará un nuevo subdirectorio llamado .git, el cual contendrá todos los archivos necesarios para el repositorio. Si se desea obtener una copia desde un repositorio existente se debe utilizar el comando de clonación]
+      p.mt-5(data-aos="fade-up") #[strong 2. Este comando creará un nuevo subdirectorio llamado .git, el cual contendrá todos los archivos necesarios para el repositorio. Si se desea obtener una copia desde un repositorio existente se debe utilizar el comando de clonación.]
 
       .mt-4
         .col-md-7.p-3.text-white(data-aos="fade-up" style="background-color:#21214B;") 

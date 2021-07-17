@@ -54,22 +54,24 @@
       .col-md-8
         .row.mb-3.mt-5
           .col-md-4.mb-3.text-center(data-aos="fade-up")
-            span.item_round.image_floating(style="background-color:#FFCA28;") 1
+            span.item_round.image_floating.show_texto_1(style="background-color:#FFCA28;") 1
 
             p.mt-4 #[strong Confirmado (committed)]
 
           .col-md-4.mb-3.text-center(data-aos="fade-up")
-            span.item_round.image_floating(style="background-color:#4DD0E1;") 2
+            span.item_round.image_floating.show_texto_2(style="background-color:#4DD0E1;") 2
 
             p.mt-4 #[strong Preparado (staged)]
 
           .col-md-4.mb-3.text-center(data-aos="fade-up")
-            span.item_round.image_floating(style="background-color:#4DD0E1;") 3
+            span.item_round.image_floating.show_texto_3(style="background-color:#4DD0E1;") 3
 
             p.mt-4 #[strong Modificado (modified)]
 
         .p-5(style="background-color:#E0FBFF;" data-aos="fade-up")
-          p Indica que los datos se encuentran almacenados de forma segura en la base de datos local. Se considera una versión concreta.
+          p.texto_1.texto_show Indica que los datos se encuentran almacenados de forma segura en la base de datos local. Se considera una versión concreta.
+          p.texto_2.texto_show(style="display:none") Indica un archivo modificado que ha sido marcado en su versión actual para una próxima confirmación.
+          p.texto_3.texto_show(style="display:none") Indica un que el archivo ha sufrido alguna modificación, pero esta aún no se ha preparado ni confirmado en la base de datos.
 
     p.mt-4(data-aos="fade-up") En la siguiente figura se puede observar la interacción que ocurre entre el directorio de trabajo que es donde se desarrolla las labores de construcción del proyecto y corresponde a una copia de la versión del proyecto, el área de preparación es un archivo que almacena información de lo que va en la próxima confirmación y el directorio Git es donde se almacenan los metadatos y base de datos de objetos para el proyecto. Este directorio Git es lo que se copia en el proceso de clonación del repositorio desde otro equipo de trabajo.
 
@@ -150,8 +152,8 @@
                 i.fas.fa-file-download(style="color: #12263F !important;")
 
 </template>
-
 <script>
+import $ from 'jquery'
 export default {
   name: 'Tema2',
   data: () => ({
@@ -162,11 +164,37 @@ export default {
     this.$nextTick(() => {
       this.$aosRefresh()
     })
+    $('.show_texto_1').click(function() {
+      $('.texto_2').hide()
+      $('.texto_3').hide()
+      $('.texto_1').show()
+      $(this).css('background-color', '#FFCA28')
+      $('.show_texto_2').css('background-color', '#4DD0E1')
+      $('.show_texto_3').css('background-color', '#4DD0E1')
+    }),
+      $('.show_texto_2').click(function() {
+        $('.texto_1').hide()
+        $('.texto_3').hide()
+        $('.texto_2').show()
+        $(this).css('background-color', '#FFCA28')
+        $('.show_texto_1').css('background-color', '#4DD0E1')
+        $('.show_texto_3').css('background-color', '#4DD0E1')
+      }),
+      $('.show_texto_3').click(function() {
+        $('.texto_1').hide()
+        $('.texto_2').hide()
+        $('.texto_3').show()
+        $(this).css('background-color', '#FFCA28')
+        $('.show_texto_1').css('background-color', '#4DD0E1')
+        $('.show_texto_2').css('background-color', '#4DD0E1')
+      })
   },
   updated() {
     this.$aosRefresh()
   },
-  methods: {},
+  methods: {
+    primer__paso() {},
+  },
 }
 </script>
 <style lang="sass">
@@ -237,6 +265,21 @@ export default {
   font-size: 33px
   font-weight: bold
   border-radius: 50%
+  cursor: pointer
+  transition: transform 0.5s linear
+  -o-transition: transform 0.5s linear
+  -ms-transition: transform 0.5s linear
+  -moz-transition: transform 0.5s linear
+  -webkit-transition: transform 0.5s linear
+.item_round:hover
+  transition: transform .5s ease
+  opacity: .7
 .titulo-segundo:after
   border-color: #FFCA28 !important
+.texto_show
+  transition: transform 0.5s linear
+  -o-transition: transform 0.5s linear
+  -ms-transition: transform 0.5s linear
+  -moz-transition: transform 0.5s linear
+  -webkit-transition: transform 0.5s linear
 </style>

@@ -130,4 +130,6 @@ export default {
   box-shadow: -11px 10px 0px -1px #fff6f6
 .cajon.color-acento-botones
   background-color: #FFE7C4
+.slyder-b__slyde img
+  max-height: 500px !important
 </style>

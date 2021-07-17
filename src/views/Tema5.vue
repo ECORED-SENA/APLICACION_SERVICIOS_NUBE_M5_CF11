@@ -20,7 +20,7 @@
           p #[strong Conoce GitHub un portal creado para alojar códigos de las aplicaciones.]
 
           .mt-5
-            a.h5(href="https://Github.com")
+            a.h5(href="https://Github.com" target="_blank")
               i.fas.fa-link(style="background-color: #4DD0E1;color: white;padding: 7px;")
               |  https://Github.com
 
@@ -32,7 +32,7 @@
           p #[strong Conoce sobre GitLab, un servicio web que permite controlar las versiones y desarrollos de software colaborativo basado en Git.]
 
           .mt-5
-            a.h5(href="https://about.Gitlab.com")
+            a.h5(href="https://about.Gitlab.com" target="_blank")
               i.fas.fa-link(style="background-color: #4DD0E1;color: white;padding: 7px;")
               |  https://about.Gitlab.com
 
@@ -44,7 +44,7 @@
           p #[strong Conoce a Bitbucket un servicio de alojamiento basado en web para los proyectos que utilizan sistema de control de versiones Mercurial y Git.]
 
           .mt-5
-            a.h5(href="https://bitbucket.org")
+            a.h5(href="https://bitbucket.org" target="_blank")
               i.fas.fa-link(style="background-color: #4DD0E1;color: white;padding: 7px;")
               |  https://bitbucket.org
 
