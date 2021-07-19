@@ -72,7 +72,7 @@
                 img(src="@/assets/curso/tema5/5.png")
                 figcaption Creación de cuenta
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p Primero se debe crear una cuenta en Gitlab directamente desde el enlace: #[a(href="https://gitlab.com/users/sign_up") https://gitlab.com/users/sign_up]
+                p Primero se debe crear una cuenta en Gitlab directamente desde el enlace: #[a(href="https://gitlab.com/users/sign_up" target="_blank") https://gitlab.com/users/sign_up]
 
                 p.mt-3 El proceso se puede realizar de forma tradicional o usando cuentas ya existentes de otras plataformas como Google, Github, Twitter, Bitbucket o Salesforce.
 
