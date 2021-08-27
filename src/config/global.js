@@ -112,7 +112,7 @@ export default {
       referencia:
         'Atlassian. (s.f.). Qué es el control de versiones | Atlassian Git Tutorial.',
       link:
-        'https://www.atlassian.com/es/Git/tutorials/what-is-version-control',
+        'https://www.atlassian.com/es/git/tutorials/what-is-version-control',
     },
     {
       referencia:

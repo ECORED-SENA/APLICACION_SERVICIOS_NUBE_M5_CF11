@@ -126,7 +126,7 @@
               .h4.mb-0 Instalación de git en sistemas operativos Windows
               p.mt-2 A continuación, se describe el paso a paso del proceso de instalación para este sistema.
             .col-sm-auto
-              a.boton.boton--b.color-acento-secundario(:href="obtenerLink('downloads/CF11_2_1_Instalacion_Git_Sistemas_Operativos_Windows.docx')" target="_blank")
+              a.boton.boton--b.color-acento-secundario(:href="obtenerLink('downloads/CF11_2_1_Instalacion_Git_Sistemas_Operativos_Windows.pdf')" target="_blank")
                 span(style="color: #12263F !important;") Descargar
                 i.fas.fa-file-download(style="color: #12263F !important;")
 
@@ -147,7 +147,7 @@
               .h4.mb-0 Instalación de Git distribuciones de Linux
               p.mt-2 A continuación, se describe el paso a paso del proceso de instalación para este sistema.
             .col-sm-auto
-              a.boton.boton--b.color-acento-secundario(:href="obtenerLink('downloads/CF11_2_2_Instalacion_Git_Distribuciones_Linux.docx')" target="_blank")
+              a.boton.boton--b.color-acento-secundario(:href="obtenerLink('downloads/CF11_2_2_Instalacion_Git_Distribuciones_Linux.pdf')" target="_blank")
                 span(style="color: #12263F !important;") Descargar
                 i.fas.fa-file-download(style="color: #12263F !important;")
 

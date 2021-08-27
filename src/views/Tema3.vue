@@ -59,7 +59,7 @@
 
       .mt-4
         .col-md-8.p-3.text-white(data-aos="fade-up" style="background-color:#21214B;") 
-          p.mb-0(style="font-family:Inconsolata;font-size: 1.2rem;text-shadow: 0px 0px 2px black;padding-left:12px;word-break: break-all;") $ git commit -m “En esta version se arreglo el archive W”
+          p.mb-0(style="font-family:Inconsolata;font-size: 1.2rem;text-shadow: 0px 0px 2px black;padding-left:12px;word-break: break-all;") $ git commit -m “En esta versión se arregló el archive W”
 
       p.mt-5(data-aos="fade-up") #[strong 9. También es posible ejecutar una operación de confirmación que salte el paso de preparación que se logra con la ejecución del comando add. Es decir, la operación de confirmación se encarga de preparar todos los archivos rastreados y luego confirmar. Esto es posible agregando la opción -a.]
 
